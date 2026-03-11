@@ -56,5 +56,7 @@ stages:
           --registry-login-server $(containerRegistry) \
           --registry-username todoappproject1 \
           --registry-password 2t2Fgk3aOiW4hYBzopjgOOr8hQCBeC4QGsbKPAyOmuXoqe0Jj2HlJQQJ99CCACBsN54Eqg7NAAACAZCRcWtP \
-          --os-type linux
+          --os-type linux \
+          --cpu 1 \
+          --memory 1.5 \
           --dns-name-label aci-demo-todoapp01
